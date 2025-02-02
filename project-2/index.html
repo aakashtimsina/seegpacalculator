@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="noMargin">SEE GPA Calculator</h2>
+        <p align="center" class="noMargin">BY <a href="https://www.facebook.com/aakashtimsina.04" target="_blank" id="socialFB">AAKASH TIMSINA</a></p>
+
+        <div id="subjects">
+            <h3>Compulsory Subjects</h3>
+            <div class="subject-group" id="compulsory-subjects">
+                <div class="subject">
+                    <label>English:</label>
+                    <label>Theory Grade:</label>
+                    <select required id="th_eng">
+                        <option>Select Grade</option>
+                        <option value="4.0">A+</option>
+                        <option value="3.6">A</option>
+                        <option value="3.2">B+</option>
+                        <option value="2.8">B</option>
+                        <option value="2.4">C+</option>
+                        <option value="2.0">C</option>
+                        <option value="1.6">D</option>
+                    </select>
+                    <label>Practical Grade:</label>
+                    <select required id="pr_eng">
+                        <option value="">Select Grade</option>
+                        <option value="4.0">A+</option>
+                        <option value="3.6">A</option>
+                        <option value="3.2">B+</option>
+                        <option value="2.8">B</option>
+                        <option value="2.4">C+</option>
+                        <option value="2.0">C</option>
+                        <option value="1.6">D</option>
+                    </select>
+                    <hr>
+                </div>
+
+                <div class="subject">
+                    <label>Nepali:</label>
+                    <label>Theory Grade:</label>
+                    <select required id="th_nep">
+                        <option value="">Select Grade</option>
+                        <option value="4.0">A+</option>
+                        <option value="3.6">A</option>
+                        <option value="3.2">B+</option>
+                        <option value="2.8">B</option>
+                        <option value="2.4">C+</option>
+                        <option value="2.0">C</option>
+                        <option value="1.6">D</option>
+                    </select>
+                    <label>Practical Grade:</label>
+                    <select required id="pr_nep">
+                        <option value="">Select Grade</option>
+                        <option value="4.0">A+</option>
+                        <option value="3.6">A</option>
+                        <option value="3.2">B+</option>
+                        <option value="2.8">B</option>
+                        <option value="2.4">C+</option>
+                        <option value="2.0">C</option>
+                        <option value="1.6">D</option>
+                    </select>
+                    <hr>
+                </div>
+
+                <div class="subject">
+                    <label>Mathematics:</label>
+                    <label>Theory Grade:</label>
+                    <select required id="th_math">
+                        <option value="">Select Grade</option>
+                        <option value="4.0">A+</option>
+                        <option value="3.6">A</option>
+                        <option value="3.2">B+</option>
+                        <option value="2.8">B</option>
+                        <option value="2.4">C+</option>
+                        <option value="2.0">C</option>
+                        <option value="1.6">D</option>
+                    </select>
+                    <label>Practical Grade:</label>
+                    <select required id="pr_math">
+                        <option value="">Select Grade</option>
+                        <option value="4.0">A+</option>
+                        <option value="3.6">A</option>
+                        <option value="3.2">B+</option>
+                        <option value="2.8">B</option>
+                        <option value="2.4">C+</option>
+                        <option value="2.0">C</option>
+                        <option value="1.6">D</option>
+                    </select>
+                    <hr>
+                </div>
+
+                <div class="subject">
+                    <label>Science:</label>
+                    <label>Theory Grade:</label>
+                    <select required id="th_sci">
+                        <option value="">Select Grade</option>
+                        <option value="4.0">A+</option>
+                        <option value="3.6">A</option>
+                        <option value="3.2">B+</option>
+                        <option value="2.8">B</option>
+                        <option value="2.4">C+</option>
+                        <option value="2.0">C</option>
+                        <option value="1.6">D</option>
+                    </select>
+                    <label>Practical Grade:</label>
+                    <select required id="pr_sci">
+                        <option value="">Select Grade</option>
+                        <option value="4.0">A+</option>
+                        <option value="3.6">A</option>
+                        <option value="3.2">B+</option>
+                        <option value="2.8">B</option>
+                        <option value="2.4">C+</option>
+                        <option value="2.0">C</option>
+                        <option value="1.6">D</option>
+                    </select>
+                    <hr>
+                </div>
+
+                <div class="subject">
+                    <label>Social Studies:</label>
+                    <label>Theory Grade:</label>
+                    <select required id="th_ss">
+                        <option value="">Select Grade</option>
+                        <option value="4.0">A+</option>
+                        <option value="3.6">A</option>
+                        <option value="3.2">B+</option>
+                        <option value="2.8">B</option>
+                        <option value="2.4">C+</option>
+                        <option value="2.0">C</option>
+                        <option value="1.6">D</option>
+                    </select>
+                    <label>Practical Grade:</label>
+                    <select required id="pr_ss">
+                        <option value="">Select Grade</option>
+                        <option value="4.0">A+</option>
+                        <option value="3.6">A</option>
+                        <option value="3.2">B+</option>
+                        <option value="2.8">B</option>
+                        <option value="2.4">C+</option>
+                        <option value="2.0">C</option>
+                        <option value="1.6">D</option>
+                    </select>
+                    <hr>
+                </div>
+            </div>
+
+            <h3>Optional Subjects</h3>
+            <div class="subject-group" id="optional-subjects">
+                <div class="subject">
+                    <label>Optional Subject 1:</label>
+                    <select required id="opt1">
+                        <option value="">Select Subject</option>
+                        <option value="Additional Math">Additional Math</option>
+                        <option value="Economics">Economics</option>
+                        <option value="Population">Population</option>
+                    </select>
+                    <label>Theory Grade:</label>
+                    <select required id="th_opt1">
+                        <option value="">Select Grade</option>
+                        <option value="4.0">A+</option>
+                        <option value="3.6">A</option>
+                        <option value="3.2">B+</option>
+                        <option value="2.8">B</option>
+                        <option value="2.4">C+</option>
+                        <option value="2.0">C</option>
+                        <option value="1.6">D</option>
+                    </select>
+                    <label>Practical Grade:</label>
+                    <select required id="pr_opt1">
+                        <option value="">Select Grade</option>
+                        <option value="4.0">A+</option>
+                        <option value="3.6">A</option>
+                        <option value="3.2">B+</option>
+                        <option value="2.8">B</option>
+                        <option value="2.4">C+</option>
+                        <option value="2.0">C</option>
+                        <option value="1.6">D</option>
+                    </select>
+                    <hr>
+                </div>
+
+                <div class="subject">
+                    <label>Optional Subject 2:</label>
+                    <select required id="opt2">
+                        <option value="">Select Subject</option>
+                        <option value="Account">Account</option>
+                        <option value="Computer">Computer</option>
+                    </select>
+                    <label>Theory Grade:</label>
+                    <select required id="th_opt2">
+                        <option value="">Select Grade</option>
+                        <option value="4.0">A+</option>
+                        <option value="3.6">A</option>
+                        <option value="3.2">B+</option>
+                        <option value="2.8">B</option>
+                        <option value="2.4">C+</option>
+                        <option value="2.0">C</option>
+                        <option value="1.6">D</option>
+                    </select>
+                    <label>Practical Grade:</label>
+                    <select required id="pr_opt2">
+                        <option value="">Select Grade</option>
+                        <option value="4.0">A+</option>
+                        <option value="3.6">A</option>
+                        <option value="3.2">B+</option>
+                        <option value="2.8">B</option>
+                        <option value="2.4">C+</option>
+                        <option value="2.0">C</option>
+                        <option value="1.6">D</option>
+                    </select>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <button onclick="calculateGPA()">Calculate GPA</button>
+        <div id="display_content">
+
+            <div class="gpa-display">
+                Current GPA: <span id="gpa-result">0.00</span>
+            </div>
+            <div class="grade-display gpa-display">
+                Current Grade: <span id="grade-result">0.00</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>made by AAKASH TIMSINA</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
