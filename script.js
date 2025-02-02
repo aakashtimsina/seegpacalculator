@@ -76,7 +76,7 @@ function calculateGPA() {
         totalOptionalPractical_credit = totalOptionalPractical * 1;
 
         let totalCredit = totalCompulsoryTheory_credit + totalCompulsoryPractical_credit + totalOptionalTheory_credit + totalOptionalPractical_credit;
-        let gpa = totalCredit / 32;
+         gpa = totalCredit / 32;
         
         if (gpa > 3.60 && gpa <= 4.0) {
             grade = "A+";
