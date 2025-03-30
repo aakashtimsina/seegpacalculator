@@ -2,7 +2,7 @@
 
 [![Website](https://img.shields.io/badge/Visit-Website-brightgreen)](https://gpa.aakashtimsina.com.np)
 
-A simple and efficient GPA calculator that helps students compute their Grade Point Average (GPA) based on their subject grades.
+A simple and efficient GPA calculator that helps students compute their SEE Grade Point Average (GPA) based on their subject grades.
 
 ## Features
 
